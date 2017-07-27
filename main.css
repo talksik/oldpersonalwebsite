@@ -1,0 +1,391 @@
+
+html {
+  margin: 0;
+  padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(225, 225, 228);
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    border: none;
+}
+
+
+nav {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+  color: white;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  height: 60px;
+  /* border: 1px solid white; */
+}
+li.sign {
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+  height: 60px;
+  width: 300px;
+  display: inline-block;
+  float: left;
+  background-image: url(images/signature1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+li.navItem {
+  margin: 0;
+  top: 0;
+  padding: 0 50px;
+  display: inline-block;
+  line-height: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+
+li.navItem a{
+  color: white;
+  text-decoration: none;
+}
+li.navItem a:hover{
+  border-top: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  border-top: 1px solid white;
+  color: blue;
+}
+
+
+
+
+
+
+
+div.coverPage {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-image: url(images/wallpaper3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  text-align: center;
+}
+p.containerIntro {
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+font.intro1 {
+  color: rgb(188, 184, 194);
+  font-size: 20px;
+  border-bottom: 2px dotted rgb(188, 184, 194);
+}
+font.intro2 {
+  color: white;
+  font-size: 60px;
+}
+
+
+
+
+
+
+div.entireBG {
+  background-color: #eff0f2;
+}
+div.profileContainer {
+    background-color: white;
+    height: auto;
+    text-align: center;
+    background-color: #eff0f2;
+}
+p.profile {
+    font-size: 50px;
+    color: darkslategray;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+p.dev {
+    color: darkgray;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 30px;
+    border-bottom: 1px solid #3ca1c3;
+    font-family: 'Raleway', sans-serif;
+}
+div.profileBanner {
+    margin: 0;
+    height: 200px;
+
+}
+div.dos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+div.avatar{
+    position: relative;
+    margin-top: 60px;
+}
+img.img-circle {
+    height: 210px;
+    width: 200px;
+    border: .5px solid darkslategrey;
+    position: relative;
+}
+
+div.aboutMe{
+    border-right: 1px solid #3ca1c3;
+    margin-top: 60px;
+}
+p.adtitle1{
+    text-decoration: none;
+    text-align: right;
+    font-size: 30px;
+    color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+}
+p.summary {
+    color: dimgrey;
+    font-size: 20px;
+    padding: 0px;
+    text-align: right;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a:hover {
+    text-decoration: none !important;
+}
+
+div.detailsMe{
+    border-left: 1px solid #3ca1c3;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+p.detailsMe{
+    color: dimgrey;
+    font-size: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+p.adtitle2{
+    text-decoration: none;
+    text-align: left;
+    font-size: 30px;
+    color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+div.skills {
+    height: auto;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    background-image: url(images/dark_embroidery.png);
+    background-size: cntain;
+}
+p.skillsBanner {
+  margin-top:30px;
+  margin-bottom: 20px;
+  padding:5px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+/*  border-bottom: 1px solid #069ea0;*/
+}
+p.skillsSummary {
+  margin:0;
+  text-align: center;
+  /*color: #cfeff0; */
+  color:#069ea0;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+}
+p.Linus {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #cfeff0;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+}
+p.professionalSide1 {
+  color: #cfeff0;
+  font-size: 20px;
+  margin-top:50px;
+  margin-bottom: 100px;
+  text-align: right;
+}
+p.professionalSide2 {
+  color: #cfeff0;
+  font-size: 20px;
+  margin-top:50px;
+  margin-bottom: 100px;
+  text-align: left;
+
+}
+div.professionalStars1 {
+  margin-top:50px;
+  margin-bottom: 100px;
+  padding: 0;
+  color: #069ea0;
+  font-size: 20px;
+  text-align: left;
+}
+div.profStars2 {
+  text-align: right;
+}
+
+
+
+
+
+div.parallax {
+  margin:0;
+  padding:0;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  font-family: 'Bubbler One', sans-serif;
+  overflow: hidden;
+}
+p.parallaxImg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(Images/parallax.jpg);
+  background-repeat: no-repeat;
+  background-size: 150% 250%;
+  background-position: bottom;
+  background-color: grey;
+  opacity: .6;
+}
+p.connect {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 60px;
+}
+
+
+
+
+
+div.contactMe {
+  background-color: #eff0f2;
+  text-align: center;
+}
+div.iconsRow div.col-md-3 {
+  height: 400px;
+}
+img.icons {
+  height: 80px;
+  width: 80px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+img.icons:hover {
+  height:85px;
+  width:85px;
+}
+
+div.entireBGInfo {
+  background-color: #3b3c3d;
+}
+div.contactInfo {
+  background-color: #3b3c3d;
+}
+div.goToTop {
+  height: 50px;
+}
+img.top {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+div.info {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  color: white;
+}
+div.phone {
+  height: 100px;
+  margin: 0 0 50px 0;
+  opacity: .75;
+  background-image: url(images/phone.jpg);
+  border-radius: 10px 0 0 10px;
+}
+p.phoneText {
+  font-family: 'Raleway', sans-serif;
+  color:#069ea0;
+  font-size: 25px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+div.email {
+  height: 100px;
+  margin: 0 0 50px 0;
+  opacity: .75;
+  background-image: url(images/phoneEmail.jpg);
+  border-radius: 0 10px 10px 0;
+}
+p.emailText {
+  font-family: 'Raleway', sans-serif;
+  color:#069ea0;
+  font-size: 25px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
