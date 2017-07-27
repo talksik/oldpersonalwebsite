@@ -93,6 +93,7 @@ div.coverPage {
   background-attachment: scroll;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 p.containerIntro {
   top: 40%;
