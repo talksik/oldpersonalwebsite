@@ -360,7 +360,7 @@ div.phone {
 p.phoneText {
   font-family: 'Raleway', sans-serif;
   color:#069ea0;
-  font-size: 25px;
+  font-size: 18px;
   top: 50%;
   position: absolute;
   left: 50%;
@@ -377,7 +377,7 @@ div.email {
 p.emailText {
   font-family: 'Raleway', sans-serif;
   color:#069ea0;
-  font-size: 25px;
+  font-size: 18px;
   top: 50%;
   position: absolute;
   left: 50%;
