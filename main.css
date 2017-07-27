@@ -46,7 +46,7 @@ li.sign {
   width: 300px;
   display: inline-block;
   float: left;
-  background-image: url(Images/signature1.jpg);
+  background-image: url(Images/signature1.JPG);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -87,7 +87,7 @@ div.coverPage {
   height: 100%;
   width: 100%;
   top: 0;
-  background-image: url(Images/wallpaper3.jpg);
+  background-image: url(Images/wallpaper3.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -216,7 +216,7 @@ div.skills {
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    background-image: url(Images/dark_embroidery.png);
+    background-image: url(Images/dark_embroidery.PNG);
     background-size: cntain;
 }
 p.skillsBanner {
@@ -289,7 +289,7 @@ p.parallaxImg {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-image: url(Images/parallax.jpg);
+  background-image: url(Images/parallax.JPG);
   background-repeat: no-repeat;
   background-size: 150% 250%;
   background-position: bottom;
@@ -359,7 +359,7 @@ div.phone {
   height: 100px;
   margin: 0 0 50px 0;
   opacity: .75;
-  background-image: url(Images/phone.jpg);
+  background-image: url(Images/phone.JPG);
   border-radius: 10px 0 0 10px;
 }
 p.phoneText {
@@ -376,7 +376,7 @@ div.email {
   height: 100px;
   margin: 0 0 50px 0;
   opacity: .75;
-  background-image: url(Images/phoneEmail.jpg);
+  background-image: url(Images/phoneEmail.JPG);
   border-radius: 0 10px 10px 0;
 }
 p.emailText {
