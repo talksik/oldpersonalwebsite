@@ -4,6 +4,9 @@ $(document).ready( function() {
   $(".intro2").hide();
   $(".navFade").hide();
 
+  if ( $(window).width() < 992 ) {
+    $(".navItem").hide();
+  }
 
 }); // end on doc ready
 
