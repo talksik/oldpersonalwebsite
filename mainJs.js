@@ -61,13 +61,13 @@ $(window).on("load",function() {
    });
 
      $('.professionalSide1').typeIt({
-     strings: ["HTML ", " ", "CSS ", " ", "Javascript ", " ", "JQuery "],
+     strings: ["HTML ", " ", "CSS ", " ", "Javascript ", " ", "JQuery"],
      speed: 20,
      autoStart: false
    });
 
    $('.professionalSide2').typeIt({
-   strings: ["Java ", " ", "Android ", " ", "Node.js ", " ", "Arduino "],
+   strings: ["Java ", " ", "Android ", " ", "Node.js ", " ", "Arduino"],
    speed: 20,
    autoStart: false
   });

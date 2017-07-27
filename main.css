@@ -215,7 +215,6 @@ div.skills {
     text-align: left;
     background-image: url(Images/dark_embroidery.png);
     background-size: cntain;
-    padding-bottom: 100px;
 }
 p.skillsBanner {
   margin-top:30px;
@@ -252,19 +251,23 @@ p.professionalSide1 {
 p.professionalSide2 {
   color: #cfeff0;
   font-size: 20px;
-  margin-top:50px;
+  margin-top: 50px;
   text-align: left;
 
 }
 div.professionalStars1 {
   margin-top:50px;
-  padding: 0;
   color: #069ea0;
   font-size: 20px;
   text-align: left;
+  margin-bottom: 10px;
 }
 div.profStars2 {
   text-align: right;
+  margin-top:50px;
+  color: #069ea0;
+  font-size: 20px;
+  margin-bottom: 100px;
 }
 
 
