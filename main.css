@@ -236,7 +236,7 @@ p.skillsSummary {
 }
 p.Linus {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
   color: #cfeff0;
   font-style: italic;
@@ -245,18 +245,14 @@ p.Linus {
 p.professionalSide1 {
   color: #cfeff0;
   font-size: 20px;
-  margin-top:50px;
   text-align: right;
 }
 p.professionalSide2 {
   color: #cfeff0;
   font-size: 20px;
-  margin-top: 50px;
   text-align: left;
-
 }
 div.professionalStars1 {
-  margin-top:50px;
   color: #069ea0;
   font-size: 20px;
   text-align: left;
