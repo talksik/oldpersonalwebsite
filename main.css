@@ -117,16 +117,10 @@ font.intro2 {
 
 
 
-
-
-div.entireBG {
-  background-color: #eff0f2;
-}
 div.profileContainer {
     background-color: white;
     height: auto;
     text-align: center;
-    background-color: #eff0f2;
 }
 p.profile {
     font-size: 50px;
@@ -213,18 +207,15 @@ p.adtitle2{
 
 
 div.skills {
-    height: auto;
-    overflow: hidden;
     font-family: 'Raleway', sans-serif;
     text-align: left;
     background-image: url(Images/dark_embroidery.png);
-    background-size: cntain;
+    position: relative;
+    color: white;
 }
 p.skillsBanner {
   margin-top:30px;
-  margin-bottom: 20px;
-  padding:5px;
-  color: white;
+  margin-bottom: 0;
   font-size: 50px;
   text-align: center;
 /*  border-bottom: 1px solid #069ea0;*/
@@ -232,7 +223,6 @@ p.skillsBanner {
 p.skillsSummary {
   margin:0;
   text-align: center;
-  /*color: #cfeff0; */
   color:#069ea0;
   font-size: 20px;
   font-style: italic;
@@ -240,33 +230,26 @@ p.skillsSummary {
 }
 p.Linus {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   text-align: center;
   color: #cfeff0;
   font-style: italic;
   font-family: 'Raleway', sans-serif;
 }
-p.professionalSide1 {
-  color: #cfeff0;
-  font-size: 20px;
-  text-align: right;
+.skillListCont {
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-bottom: 40px;
 }
-p.professionalSide2 {
-  color: #cfeff0;
-  font-size: 20px;
-  text-align: left;
+button.skillList {
+  padding: 0px 15px 0px 15px;
+  margin: 5px 5px 5px 5px;
+  background-color: transparent;
+  border: 1px solid white;
 }
-div.professionalStars1 {
-  color: #069ea0;
-  font-size: 20px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-div.profStars2 {
-  text-align: right;
-  margin-bottom: 100px;
-}
-
 
 
 
@@ -274,14 +257,14 @@ div.profStars2 {
 div.parallax {
   margin:0;
   padding:0;
-  height: 700px;
+  height: 500px;
   width: 100%;
   position: relative;
   font-family: 'Bubbler One', sans-serif;
   overflow: hidden;
 }
 p.parallaxImg {
-  height: 100%;
+  height: 500px;
   width: 100%;
   position: absolute;
   background-image: url(Images/parallax.jpg);
@@ -306,13 +289,15 @@ p.connect {
 
 
 
-
+div.entireBG {
+  background-color: #eff0f2;
+}
 div.contactMe {
   background-color: #eff0f2;
   text-align: center;
 }
 div.iconsRow div.col-md-3 {
-  height: 400px;
+  height: 300px;
 }
 img.icons {
   height: 80px;
@@ -327,60 +312,62 @@ img.icons:hover {
   height:85px;
   width:85px;
 }
+div.goToTop {
+  height: 50px;
+}
+img.top {
+  height: 30px;
+  width: 30px;
+  margin: 20px 0px 20px 0px;
+}
+
+
+div.getStartedCont {
+  position: relative;
+  height: 50px;
+}
+div.getStarted {
+  height: 50px;
+  opacity: .75;
+  background-image: url(Images/phoneEmail.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.getStarted p {
+  color: white;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+div.form {
+  height: 100%;
+}
+
+
 
 div.entireBGInfo {
   background-color: #3b3c3d;
 }
 div.contactInfo {
   background-color: #3b3c3d;
+  border: 1px solid green;
+  height: 100px;
+  position: relative;
 }
-div.goToTop {
-  height: 50px;
-}
-img.top {
-  display: block;
-  height: 50px;
-  width: 50px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
 div.info {
   font-family: 'Raleway', sans-serif;
-  text-align: right;
+  text-align: center;
   color: white;
-}
-div.phone {
-  height: 100px;
-  margin: 0 0 50px 0;
-  opacity: .75;
-  background-image: url(Images/phone.jpg);
-  border-radius: 10px 0 0 10px;
-}
-p.phoneText {
-  font-family: 'Raleway', sans-serif;
-  color:#069ea0;
-  font-size: 18px;
-  top: 50%;
+  height: 80px;
   position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-div.email {
-  height: 100px;
-  margin: 0 0 50px 0;
-  opacity: .75;
-  background-image: url(Images/phoneEmail.jpg);
-  border-radius: 0 10px 10px 0;
-}
-p.emailText {
-  font-family: 'Raleway', sans-serif;
-  color:#069ea0;
-  font-size: 18px;
-  top: 50%;
-  position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  bottom: 0;
 }
