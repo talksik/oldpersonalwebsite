@@ -1807,6 +1807,7 @@ ul.icons {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-direction: column;
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
@@ -1817,7 +1818,7 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 50rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;

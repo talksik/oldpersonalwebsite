@@ -42,4 +42,24 @@
 				side: 'right'
 			});
 
+		$('#blog').load('blog.html');
+
+	$('#readBlog').on("click", function() {
+		window.location.href = "blog.html";
+	});
+
+	$('.readMore').on("click", function() {
+		var whichBlog = $(this).attr('id');
+		console.log("Loading vlog: " + whichBlog);
+		window.location.href = "blogs/" + whichBlog + ".html";
+	});
+
+	$('#goToMain').on("click", function() {
+		window.location.href = "index.html";
+	});
+
+	$('#goToBlogs').on("click", function() {
+		window.location.href = "../blog.html";
+	});
+
 })(jQuery);
