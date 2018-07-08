@@ -191,3 +191,7 @@
   cursor: pointer;
   z-index: 5;
 }
+
+a {
+  text-decoration: none !important;
+}
