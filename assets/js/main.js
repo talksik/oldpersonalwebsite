@@ -51,15 +51,15 @@
 	$('.readMore').on("click", function() {
 		var whichBlog = $(this).attr('id');
 		console.log("Loading vlog: " + whichBlog);
-		window.location.href = "blogs/" + whichBlog + ".html";
+		window.location.href = "http://arjunpatel.me/blogs/" + whichBlog + ".html";
 	});
 
 	$('#goToMain').on("click", function() {
-		window.location.href = "index.html";
+		window.location.href = "http://arjunpatel.me/index.html";
 	});
 
 	$('#goToBlogs').on("click", function() {
-		window.location.href = "../blog.html";
+		window.location.href = "http://arjunpatel.me/blog.html";
 	});
 
 })(jQuery);

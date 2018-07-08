@@ -2415,6 +2415,7 @@ body {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-direction: column;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
