@@ -42,22 +42,4 @@
 				side: 'right'
 			});
 
-	$('#readBlog').on("click", function() {
-		window.location = "http://arjunpatel.me/blog.html";
-	});
-
-	// $('.readMore').on("click", function() {
-	// 	var whichBlog = $(this).attr('id');
-	// 	console.log("Loading vlog: " + whichBlog);
-	// 	window.location = "http://arjunpatel.me/blogs/" + whichBlog + ".html";
-	// });
-	//
-	// $('#goToMain').on("click", function() {
-	// 	window.location = "http://arjunpatel.me/index.html";
-	// });
-	//
-	// $('#goToBlogs').on("click", function() {
-	// 	window.location = "http://arjunpatel.me/blog.html";
-	// });
-
 })(jQuery);

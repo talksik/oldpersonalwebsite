@@ -268,7 +268,6 @@ button,
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
-  height: 3.25rem;
   line-height: 3.25rem;
   padding: 0 1.75rem;
   text-align: center;
@@ -1807,7 +1806,6 @@ ul.icons {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  flex-direction: column;
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
@@ -1818,7 +1816,7 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 50rem !important;
+  height: 35rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
@@ -2060,9 +2058,9 @@ ul.icons {
 /* CTA */
 #cta {
   background-color: #ce1b28;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.9);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../../images/cta01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2359,7 +2357,7 @@ ul.icons {
         padding-left: 4rem; }
   #footer .copyright {
     border-top: 1px solid;
-    font-size: 0.5rem;
+    font-size: 1em;
     opacity: 0.5;
     padding: 2rem 0;
     text-align: center; }
@@ -2422,9 +2420,7 @@ body {
   background: black;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
-  height: 3.25rem;
   left: 0;
-  line-height: 3.25rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -2822,15 +2818,28 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 
+#header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
 #signature {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  height: 80%;
   width: 200px;
+  margin-right: 10px;
+  max-height: 50px;
+}
+#logo-text-container {
+  margin: 5px;
   margin-left: 10px;
+}
+#logo-text {
+  color: white !important;
+  margin: 0px !important;
+}
+#logo-text-container span {
+  color: #ced1d6;
 }
 
 .emailHandle {
